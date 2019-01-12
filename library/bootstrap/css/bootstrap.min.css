@@ -4500,7 +4500,7 @@ html {
       float: left !important;
     }
     .navbar-right {
-      padding-top: 8px;
+      padding-top: 17px;
       float: right !important;
       margin-right: -15px;
     }
@@ -6257,7 +6257,7 @@ html {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 636px;
+    height: auto;
   }
   .carousel-inner > .item {
     position: relative;
