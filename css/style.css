@@ -488,6 +488,12 @@ a.page-scroll:hover{
   color: #000000;
 }
 
+.geninfo-single h3 {
+  opacity: 1.0 !important;
+  color: #000000;
+  font-size: 20px;
+}
+
 .geninfo-single p  {
   opacity: 1.0 !important;
   color: #000000;
