@@ -77,7 +77,7 @@
 
   /*----------------------------
   Page Scroll
-  ------------------------------ */
+  ------------------------------ 
   var page_scroll = $('a.page-scroll');
   page_scroll.on('click', function(event) {
     var $anchor = $(this);
@@ -86,7 +86,7 @@
     }, 1500, 'easeInOutExpo');
     event.preventDefault();
   });
-
+*/
   /*--------------------------
     Back to top button
   ---------------------------- */
