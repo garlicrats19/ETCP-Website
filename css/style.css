@@ -544,7 +544,7 @@ a.page-scroll:hover{
 
 .product-slider { 
   padding-top: 90px; 
-  height: 681px;
+  height: auto;
   background: #f9f9f9;
 }
 
