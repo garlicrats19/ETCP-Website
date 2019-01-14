@@ -766,6 +766,96 @@ a.page-scroll:hover{
   opacity: 0.7;
   text-align: center;
   padding: 40px 20px 40px;
+  height: 550px;
 }
 
+.aboutinfo-single h2 {
+  opacity: 1.0 !important;
+  color: #000000;
+  font-size: 56px;
+}
+
+.aboutinfo-single h3 {
+  margin: 0px auto;
+  opacity: 1.0 !important;
+  color: #000000;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.aboutinfo-single p  {
+  opacity: 1.0 !important;
+  color: #000000;
+}
+
+.aboutinfo-single button {
+  opacity: 1.0 !important;
+}
+
+.aligncentergeninfo {
+  display: block;
+  margin: 0 auto 38px;
+}
+
+/* School History CSS */
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-family: cursive;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-readmore {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.aligncenterabout {
+  display: block;
+  margin: 0 auto 15px;
+  text-align: center;
+}
+
+/* Mission & Vision Statements CSS */
+
+.statements-area  {
+  display: block;
+  background-color: #f9f9f9;
+  margin: 0px auto;
+}
+
+.statements-info {
+  background-color: #dfdbdb;
+  opacity: 0.4;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 20px 40px;
+}
+
+.vision {
+  padding: 3px;
+  margin: 0px auto;
+}
+.mission {
+  padding: 3px;
+  margin: 0px auto;
+}
 
