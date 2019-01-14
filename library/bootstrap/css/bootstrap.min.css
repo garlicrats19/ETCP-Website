@@ -6335,7 +6335,7 @@ html {
   /*********/
   
   .carousel-inner-thumb {
-    position: relative;
+    position: absolute;
     width: 100%;
     overflow: hidden;
   }

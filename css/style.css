@@ -190,6 +190,11 @@ div#preloader {
   padding-bottom: 50px
 }
 
+.area-banner {
+  padding-top: 100px;
+  padding-bottom: 50px
+}
+
 .area-padding-2 {
   padding: 70px 0px 50px;
 }
@@ -615,6 +620,7 @@ a.page-scroll:hover{
 .carousel-control.right, .carousel-control.left { 
   background-color: rgba(0, 0, 0, 0); 
   background-image: none; 
+  top: 28px;
 }
 
 
