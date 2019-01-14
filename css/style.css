@@ -762,17 +762,22 @@ a.page-scroll:hover{
 }
 
 .aboutinfo-single {
+  
   background-color: #cecece;
   opacity: 0.7;
   text-align: center;
   padding: 40px 20px 40px;
-  height: 550px;
+  height: 500px;
+  padding-bottom: 5px;
 }
 
 .aboutinfo-single h2 {
   opacity: 1.0 !important;
   color: #000000;
-  font-size: 56px;
+  font-weight: bold;
+  font-size: 72px;
+  padding-top: 80px;
+  padding-bottom: 10px;
 }
 
 .aboutinfo-single h3 {
@@ -799,33 +804,19 @@ a.page-scroll:hover{
 
 /* School History CSS */
 
-.btn {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-family: cursive;
-  font-weight: normal;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
+.history-info {
+  background-color: #f9f9f9;
+}
+
+.history-area {
+  background-color: #dfdbdb;
 }
 
 .btn-readmore {
   color: #fff;
   background-color: #337ab7;
   border-color: #2e6da4;
+  font-family: cursive;
 }
 
 .aligncenterabout {
@@ -848,14 +839,42 @@ a.page-scroll:hover{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   padding: 40px 20px 40px;
+  border-radius: 15px;
 }
 
-.vision {
-  padding: 3px;
-  margin: 0px auto;
-}
-.mission {
-  padding: 3px;
-  margin: 0px auto;
+.statements-info h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  opacity: 1;
+  color: black;
 }
 
+.statements-info p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/* Community CSS */
+
+.community-info {
+  background-color: #f9f9f9;
+  padding: 40px 20px 40px;
+
+}
+
+.community-info h1 {
+  font-weight: bold;
+
+}
+
+.community-frames {
+  padding: 5px;
+}
+
+.community-frames img {
+  opacity: 0.7;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
