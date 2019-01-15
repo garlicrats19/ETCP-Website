@@ -859,6 +859,7 @@ a.page-scroll:hover{
 .community-info {
   background-color: #f9f9f9;
   padding: 40px 20px 40px;
+  
 
 }
 
@@ -869,6 +870,15 @@ a.page-scroll:hover{
 
 .community-frames {
   padding: 5px;
+  margin: 0px auto;
+  width: 100%;
+}
+
+
+.community-frames img {
+  height: auto;
+  border-radius: 5px;
+  
 }
 
 
