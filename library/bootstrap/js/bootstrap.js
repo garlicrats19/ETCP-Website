@@ -4,6 +4,27 @@
  * Licensed under the MIT license
  */
 
+(function($){
+  $(window).on("load",function(){
+    $(".mcs-horizontal-example").mCustomScrollbar({
+      axis:"x",
+      theme:"dark-3"
+    });
+  });
+})(jQuery);
+
+$(".mcs-horizontal-example").mCustomScrollbar({
+  axis:"x",
+  theme:"dark-3",
+  advanced:{ autoExpandHorizontalScroll:true }
+});
+
+$(document).ready(function () {
+  if (!$.browser.webkit) {
+      $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
+  }
+});
+ 
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }

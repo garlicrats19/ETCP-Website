@@ -576,7 +576,7 @@ a.page-scroll:hover{
 }
 
 .product-slider #thumbcarousel .item .thumb:hover { 
-  border-color: #1089c0; 
+  border-color: #00a91d; 
 }
 
 .product-slider .item img { 
@@ -753,7 +753,7 @@ a.page-scroll:hover{
 
 .banner-about {
   background-image: url("../img/temp-parallax-img.jpg");
-  height: 658px;
+  height: auto;
 
   background-attachment: fixed;
   background-position: center;
@@ -766,9 +766,8 @@ a.page-scroll:hover{
   
   background-color: #cecece;
   opacity: 0.7;
-  text-align: center;
-  padding: 40px 20px 40px;
-  height: 500px;
+  text-align: center; 
+  height: auto;
   padding-bottom: 5px;
 }
 
@@ -815,8 +814,8 @@ a.page-scroll:hover{
 
 .btn-readmore {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #00a91d;
+  border-color: #1c6e2a;
   font-family: cursive;
 }
 
@@ -924,7 +923,7 @@ a.page-scroll:hover{
 }
 #custom_carousel .controls li.active {
   background-color:#eee;
-  border-top:3px solid orange;
+  border-top:3px solid #00a91d;
 }
 #custom_carousel .controls a small {
   overflow:hidden;
@@ -932,4 +931,146 @@ a.page-scroll:hover{
   font-size:10px;
   margin-top:5px;
   font-weight:bold
+}
+
+/* Our Team Area*/
+
+#our-team {
+
+  background-image: url("../img/temp-parallax-img.jpg");
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.overlay {
+  background-color: #333;
+}
+
+.our-team-section-headline h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 70px;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.our-team-section-headline h2::after {
+  border: 1px solid #fff;
+  bottom: -20px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 40%;
+  opacity: 2;
+}
+
+.sec-head {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 0 0 10px;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 270px;
+  height: 270px;
+  perspective: 1000px;
+  margin: 0 6px 0 6px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  z-index: 2;
+}
+
+.flip-card-back {
+  background-color: #00a91d;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+  padding: 15px;
+}
+
+.centeralign-ourteam{
+  display: block;
+  margin: 0px auto;
+}
+
+.ourteam-single-well {
+  display: block;
+}
+
+.mcs-horizontal-example{
+  overflow-x: auto;
+  white-space: nowrap;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.force-overflow {
+  margin-bottom: 30px;
+}
+
+.mcs-horizontal-example .flip-card{
+  display: inline-block;
+}
+
+#style-15::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: transparent;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+#style-15::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: transparent;
+}
+
+#style-15::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: transparent;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#4D9C41),
+									   to(#19911D),
+									   color-stop(.6,#54DE5D))
 }
