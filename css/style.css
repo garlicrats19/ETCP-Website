@@ -774,12 +774,11 @@ a.page-scroll:hover{
   padding-bottom: 5px;
 }
 
-.aboutinfo-single h2 {
+.aboutinfo-single h1 {
   opacity: 1.0 !important;
   color: #000000;
   font-weight: bold;
-  font-size: 72px;
-  padding-top: 80px;
+  padding-top: 35px;
   padding-bottom: 10px;
 }
 
@@ -842,6 +841,7 @@ a.page-scroll:hover{
   font-family: Arial, Helvetica, sans-serif;
   padding: 40px 20px 40px;
   border-radius: 15px;
+  margin: 10px 0 10px 0
 }
 
 .statements-info h1 {
@@ -904,7 +904,7 @@ a.page-scroll:hover{
 }
 
 .slider {
-  height: 228px;
+  height: 230px;
   width: auto;
   position: relative;
   overflow: hidden;
@@ -997,14 +997,19 @@ a.page-scroll:hover{
           justify-content: center;
 }
 .slider__image {
-  font-size: 2.7rem;
-      color: #2196F3;
+  font-size: 5.7rem;
+      color: #00a91d;
 }
 .slider__caption {
   font-weight: 500;
   margin: 2rem 0 1rem;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
+}
+.slider__txt h1{
+  color: #999;
+  margin-bottom: 3rem;
+  max-width: 300px;
 }
 .slider__txt {
   color: #999;
