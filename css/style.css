@@ -804,6 +804,19 @@ a.page-scroll:hover{
   margin: 0 auto 38px;
 }
 
+
+/* Program Page */
+
+.program-placeholder {
+  padding: 40%;
+}
+
+.program-header {
+  margin: 40px auto;
+}
+
+/* End Program Area CSS */
+
 /* School History CSS */
 
 .history-info {
