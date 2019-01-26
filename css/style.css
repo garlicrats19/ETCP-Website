@@ -756,12 +756,12 @@ a.page-scroll:hover{
 
 .banner-about {
   background-image: url("../img/temp-parallax-img.jpg");
-  height: auto;
-
+  min-height: 90%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
   margin-top: 100px;
 }
 
@@ -793,6 +793,7 @@ a.page-scroll:hover{
 .aboutinfo-single p  {
   opacity: 1.0 !important;
   color: #000000;
+  text-align: center;
 }
 
 .aboutinfo-single button {
