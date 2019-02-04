@@ -858,7 +858,7 @@ a.page-scroll:hover{
   margin: 10px 0 10px 0
 }
 
-.statements-info h1 {
+.statements-info h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
   opacity: 0.7;
@@ -870,6 +870,7 @@ a.page-scroll:hover{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
+
 
 /* Community CSS */
 
@@ -889,6 +890,13 @@ a.page-scroll:hover{
   padding: 5px;
 }
 
+.description {
+  font-size: 50px;
+  text-align: center; 
+  padding-top: 80px;
+
+}
+
 /*Testimonials CSS*/
 
 .testimonials-area {
@@ -899,19 +907,6 @@ a.page-scroll:hover{
 	float: none !important;
 }
 
-.description {
-  font-size: 50px;
-  text-align: center; 
-  padding-top: 80px;
-
-}
-@media (max-width: 320px) {
-  .description {
-    font-size: 30px;
-    margin: 0px auto;
-    padding: 5px;
-  }
-}
 
 .rounded-img {
   border-radius: 50%;
