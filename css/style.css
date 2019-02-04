@@ -300,7 +300,6 @@ a.page-scroll:hover{
   border: medium none;
   margin-bottom: 0;
 }
-
 .navbar-default {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 }
@@ -807,9 +806,28 @@ a.page-scroll:hover{
 
 
 /* Program Page */
+.programBanner img {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.programBanner .bannerText h1 {
+  background: #000;
+  padding: 40px;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  margin: auto;
+}
 
 .program-placeholder {
-  padding: 40%;
+  padding: 35%;
+  border: dashed 2px gray;
+  margin-bottom: 20px;
 }
 
 .program-header {
