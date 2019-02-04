@@ -909,6 +909,7 @@ a.page-scroll:hover{
 }
 
 .description {
+  display: block;
   font-size: 50px;
   text-align: center; 
   padding-top: 80px;
