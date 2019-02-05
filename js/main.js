@@ -1,12 +1,12 @@
-(function($) {
+(function ($) {
   "use strict";
 
   /*--------------------------
   preloader
   ---------------------------- */
-  $(window).on('load', function() {
+  $(window).on('load', function () {
     var pre_loader = $('#preloader');
-    pre_loader.fadeOut('slow', function() {
+    pre_loader.fadeOut('slow', function () {
       $(this).remove();
     });
   });
@@ -16,7 +16,7 @@
   --------------------- */
   var s = $("#sticker");
   var pos = s.position();
-  $(window).on('scroll', function() {
+  $(window).on('scroll', function () {
     var windowpos = $(window).scrollTop() > 300;
     if (windowpos > pos.top) {
       s.addClass("stick");
@@ -29,7 +29,7 @@
    Navbar nav
   ------------------------------ */
   var main_menu = $(".main-menu ul.navbar-nav li ");
-  main_menu.on('click', function() {
+  main_menu.on('click', function () {
     main_menu.removeClass("active");
     $(this).addClass("active");
   });
@@ -39,7 +39,7 @@
   ------------------------------ */
   new WOW().init();
 
-  $(".navbar-collapse a").on('click', function() {
+  $(".navbar-collapse a").on('click', function () {
     $(".navbar-collapse.collapse").removeClass('in');
   });
 
@@ -90,7 +90,7 @@
   /*--------------------------
     Back to top button
   ---------------------------- */
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
     } else {
@@ -98,8 +98,8 @@
     }
   });
 
-  $('.back-to-top').click(function(){
-    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
+  $('.back-to-top').click(function () {
+    $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
     return false;
   });
 
@@ -115,7 +115,7 @@
    collapse
   ---------------------------- */
   var panel_test = $('.panel-heading a');
-  panel_test.on('click', function() {
+  panel_test.on('click', function () {
     panel_test.removeClass('active');
     $(this).addClass('active');
   });
@@ -145,7 +145,7 @@
    isotope active
   ------------------------------ */
   // portfolio start
-  $(window).on("load", function() {
+  $(window).on("load", function () {
     var $container = $('.awesome-project-content');
     $container.isotope({
       filter: '*',
@@ -156,7 +156,7 @@
       }
     });
     var pro_menu = $('.project-menu li a');
-    pro_menu.on("click", function() {
+    pro_menu.on("click", function () {
       var pro_menu_active = $('.project-menu li a.active');
       pro_menu_active.removeClass('active');
       $(this).addClass('active');
@@ -178,34 +178,34 @@
   /*---------------------
    Circular Bars - Knob
 --------------------- */
-  if (typeof($.fn.knob) != 'undefined') {
+  if (typeof ($.fn.knob) != 'undefined') {
     var knob_tex = $('.knob');
-    knob_tex.each(function() {
+    knob_tex.each(function () {
       var $this = $(this),
         knobVal = $this.attr('data-rel');
 
       $this.knob({
-        'draw': function() {
+        'draw': function () {
           $(this.i).val(this.cv + '%')
         }
       });
 
-      $this.appear(function() {
+      $this.appear(function () {
         $({
           value: 0
         }).animate({
           value: knobVal
         }, {
-          duration: 2000,
-          easing: 'swing',
-          step: function() {
-            $this.val(Math.ceil(this.value)).trigger('change');
-          }
-        });
+            duration: 2000,
+            easing: 'swing',
+            step: function () {
+              $this.val(Math.ceil(this.value)).trigger('change');
+            }
+          });
       }, {
-        accX: 0,
-        accY: -150
-      });
+          accX: 0,
+          accY: -150
+        });
     });
   }
 
@@ -213,7 +213,7 @@
      Google Maps
   --------------------- */
   // Fr use with dynamic Google maps
-  if( $('#google-map').length) {
+  if ($('#google-map').length) {
     var get_latitude = $('#google-map').data('latitude');
     var get_longitude = $('#google-map').data('longitude');
 
@@ -233,25 +233,29 @@
     google.maps.event.addDomListener(window, 'load', initialize_google_map);
   }
 
-
 }
 )
-$(document).ready(function(ev){
+$(document).ready(function (ev) {
   $('#custom_carousel').on('slide.bs.carousel', function (evt) {
     $('#custom_carousel .controls li.active').removeClass('active');
-    $('#custom_carousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
+    $('#custom_carousel .controls li:eq(' + $(evt.relatedTarget).index() + ')').addClass('active');
   })
 });
 
-window.onload = function() {
+// Image slide in animations
+window.onload = function () {
   var img1slideleft = document.getElementById('img1')
   var img2slideright = document.getElementById('img2')
+  var img3slidebottom = document.getElementById('img3')
+  var img4slidetop = document.getElementById('img4')
+  var img5slideright = document.getElementById('img5')
   img1slideleft.style.marginLeft = "2px";
   img2slideright.style.marginLeft = "2px";
+  img3slidebottom.style.marginTop = "0px";
+  img4slidetop.style.marginTop = "0px";
+  img5slideright.style.marginLeft = "2px";
+  
 };
-
-
-
 
 
 
