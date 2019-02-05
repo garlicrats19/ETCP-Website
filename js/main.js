@@ -243,5 +243,17 @@ $(document).ready(function(ev){
   })
 });
 
+window.onload = function() {
+  var img1slideleft = document.getElementById('img1')
+  var img2slideright = document.getElementById('img2')
+  img1slideleft.style.marginLeft = "2px";
+  img2slideright.style.marginLeft = "2px";
+};
+
+
+
+
+
+
 (jQuery);
 

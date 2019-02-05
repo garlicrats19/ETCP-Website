@@ -908,6 +908,25 @@ a.page-scroll:hover{
   padding: 5px;
 }
 
+/* slide in from the left */
+
+.community-info .imgAnimateLeft {
+  margin-top: 50px;
+  margin-left: -1200px;
+  border-radius: 20px;
+  transition: 2.5s;
+  line-height: 40px;
+  text-align: center;
+}
+
+.community-info .imgAnimateRight {
+  margin-left: 1000px;
+  border-radius: 20px;
+  transition: 2.5s;
+  line-height: 40px;
+  text-align: center;
+}
+
 .description {
   display: block;
   font-size: 50px;
