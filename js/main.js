@@ -244,20 +244,30 @@ $(document).ready(function (ev) {
 
 // Image slide in animations
 window.onload = function () {
-  var img1slideleft = document.getElementById('img1')
-  var img2slideright = document.getElementById('img2')
-  var img3slidebottom = document.getElementById('img3')
-  var img4slidetop = document.getElementById('img4')
-  var img5slideright = document.getElementById('img5')
-  img1slideleft.style.marginLeft = "2px";
-  img2slideright.style.marginLeft = "2px";
-  img3slidebottom.style.marginTop = "0px";
-  img4slidetop.style.marginTop = "0px";
-  img5slideright.style.marginLeft = "2px";
-  
+ 
 };
 
+window.onscroll= function () {ScrollAnimate()};
 
+        function ScrollAnimate(){
+        if(document.body.scrolltop = "2000px"){
+          var slideimages = document.getElementById('community-images')
+          var img1slideleft = document.getElementById('img1')
+          var img2slideright = document.getElementById('img2')
+          var img3slidebottom = document.getElementById('img3')
+          var img4slidetop = document.getElementById('img4')
+          var img5slideright = document.getElementById('img5')
+          img1slideleft.style.marginLeft = "0px";
+          img2slideright.style.marginLeft = "0px";
+          img3slidebottom.style.marginTop = "0px";
+          img4slidetop.style.marginTop = "0px";
+          img5slideright.style.marginLeft = "0px"; 
+          slideimages.style.marginLeft = "0px"; 
+        }
 
+        else {
+          
+        }
+        }; 
 (jQuery);
 

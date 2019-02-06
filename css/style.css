@@ -911,7 +911,6 @@ a.page-scroll:hover{
 /* slide in from the left */
 
 .community-info .imgAnimateLeft {
-  margin-top: 50px;
   margin-left: -1200px;
   border-radius: 20px;
   transition: 2.5s;
@@ -936,8 +935,9 @@ a.page-scroll:hover{
 }
 
 .community-info .imgAnimateTop {
-  margin-top: -200px;
+  margin-top: -1000px;
   border-radius: 20px;
+  transition-duration: 2.5s;
   transition: 2.5s;
   line-height: 40px;
   text-align: center;
@@ -947,7 +947,7 @@ a.page-scroll:hover{
   display: block;
   font-size: 50px;
   text-align: center; 
-  padding-top: 80px;
+  margin-top: 10px;
 
 }
 
